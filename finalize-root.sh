@@ -3,6 +3,7 @@
 # Clean up
 echo '++++++++++++++++++++++++++++++++++'
 echo 'BEGIN cleaning up the Docker image'
+echo '++++++++++++++++++++++++++++++++++'
 
 echo '-------------'
 echo 'cd / && du -s'
@@ -39,5 +40,6 @@ echo '-------------'
 echo 'cd / && du -s'
 cd / && du -s
 
+echo '+++++++++++++++++++++++++++++++++++++'
 echo 'FINISHED cleaning up the Docker image'
 echo '+++++++++++++++++++++++++++++++++++++'
