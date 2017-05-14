@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo '*********************************'
-echo 'BEGIN rbenv-general sanity checks'
+echo '+++++++++++++++++++++++++++++++++++++++'
+echo 'BEGIN sanity checks (Developer Edition)'
 
 # BEGIN: activate rbenv
 export PATH="/home/winner/.rbenv/bin:$PATH"
@@ -14,9 +14,6 @@ export NVM_DIR="/home/winner/.nvm"
 # END: activate NVM
 
 nvm use --lts # Activate Node
-
-echo '+++++++++++++++++++++++++++++++++++++++'
-echo 'BEGIN sanity checks (Developer Edition)'
 
 echo '------'
 echo 'whoami'
