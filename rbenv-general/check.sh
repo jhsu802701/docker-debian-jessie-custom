@@ -1,7 +1,10 @@
 #!/bin/bash
 
+curl https://raw.githubusercontent.com/jhsu802701/docker-debian-jessie-custom/master/dev/check.sh | bash
+
 echo '*********************************'
 echo 'BEGIN rbenv-general sanity checks'
+echo '*********************************'
 
 # BEGIN: activate rbenv
 export PATH="/home/winner/.rbenv/bin:$PATH"
@@ -73,3 +76,4 @@ gem list "^mailcatcher$"
 
 echo '************************************'
 echo 'FINISHED rbenv-general sanity checks'
+echo '************************************'
