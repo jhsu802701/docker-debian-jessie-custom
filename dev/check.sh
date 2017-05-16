@@ -15,25 +15,7 @@ export NVM_DIR="/home/winner/.nvm"
 
 nvm use --lts # Activate Node
 
-echo '------'
-echo 'whoami'
-whoami
-
-echo '--------------'
-echo 'sudo --version'
-sudo --version
-
-echo '--------------'
-echo 'nano --version'
-nano --version
-
-echo '--------------'
-echo 'tree --version'
-tree --version
-
-echo '-------'
-echo 'tmux -V'
-tmux -V
+curl https://raw.githubusercontent.com/jhsu802701/docker-debian-jessie-custom/master/min/check.sh | bash
 
 echo '-----------------------'
 echo 'puppet master --version'
