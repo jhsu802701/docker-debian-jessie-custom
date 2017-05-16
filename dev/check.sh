@@ -17,6 +17,10 @@ nvm use --lts # Activate Node
 
 curl https://raw.githubusercontent.com/jhsu802701/docker-debian-jessie-custom/master/min/check.sh | bash
 
+echo '-------'
+echo 'perl -v'
+perl -v
+
 echo '-----------------------'
 echo 'puppet master --version'
 puppet master --version
