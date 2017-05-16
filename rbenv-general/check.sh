@@ -2,10 +2,6 @@
 
 curl https://raw.githubusercontent.com/jhsu802701/docker-debian-jessie-custom/master/dev/check.sh | bash
 
-echo '*********************************'
-echo 'BEGIN rbenv-general sanity checks'
-echo '*********************************'
-
 # BEGIN: activate rbenv
 export PATH="/home/winner/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
@@ -17,38 +13,6 @@ export NVM_DIR="/home/winner/.nvm"
 # END: activate NVM
 
 nvm use --lts # Activate Node
-
-echo '----------------'
-echo 'sqlite3 -version'
-sqlite3 -version
-
-echo '--------------'
-echo 'psql --version'
-psql --version
-
-echo '--------------'
-echo 'command -v nvm'
-command -v nvm
-
-echo '-------------'
-echo 'nvm --version'
-nvm --version
-
-echo '-----------'
-echo 'npm version'
-npm version
-
-echo '-------'
-echo 'node -v'
-node -v
-
-echo '----------'
-echo 'type rbenv'
-type rbenv
-
-echo '--------------'
-echo 'rbenv versions'
-rbenv versions
 
 echo '-------'
 echo 'ruby -v'
@@ -73,7 +37,3 @@ gem list "^pg$"
 echo '------------------------'
 echo 'gem list "^mailcatcher$"'
 gem list "^mailcatcher$"
-
-echo '************************************'
-echo 'FINISHED rbenv-general sanity checks'
-echo '************************************'
