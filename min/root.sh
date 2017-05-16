@@ -6,11 +6,6 @@ export DEBCONF_NOWARNINGS='true'
 export HOME=/root
 export LC_ALL=C
 
-# Add apt-utils
-echo '----------------------------'
-echo 'apt-get install -y apt-utils'
-apt-get install -y apt-utils
-
 # Add Sudo
 echo '-----------------------'
 echo 'apt-get install -y sudo'
