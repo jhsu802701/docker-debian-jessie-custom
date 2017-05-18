@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo '+++++++++++++++++++++++++++++++++++++++'
-echo 'BEGIN sanity checks (Developer Edition)'
-
 # BEGIN: activate rbenv
 export PATH="/home/winner/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
@@ -76,6 +73,3 @@ psql --version
 echo '----------'
 echo 'type rbenv'
 type rbenv
-
-echo 'FINISHED sanity checks (Developer Edition)'
-echo '++++++++++++++++++++++++++++++++++++++++++'
