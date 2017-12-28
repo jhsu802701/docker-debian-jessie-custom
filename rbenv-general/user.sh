@@ -49,29 +49,29 @@ function install_gems {
 
   # The versions of rails, pg, and nokogiri used in the Rails Tutorial Sample App
   echo '--------------------------'
-  echo 'gem install rails -v 5.0.1'
-  gem install rails -v 5.0.1
+  echo 'gem install rails -v 5.1.4'
+  gem install rails -v 5.1.4
 
   echo '------------------------'
-  echo 'gem install pg -v 0.18.4'
-  gem install pg -v 0.18.4
+  echo 'gem install pg -v 0.20.0'
+  gem install pg -v 0.20.0
 
   echo '-----------------------------'
-  echo 'gem install nokogiri -v 1.7.0'
-  gem install nokogiri -v 1.7.0
+  echo 'gem install nokogiri -v 1.8.1'
+  gem install nokogiri -v 1.8.1
 
   # The versions of rails, pg, and nokogiri needed for GenericApp.
   echo '--------------------------'
-  echo 'gem install rails -v 5.0.1'
-  gem install rails -v 5.0.1
+  echo 'gem install rails -v 5.1.4'
+  gem install rails -v 5.1.4
 
   echo '------------------------'
-  echo 'gem install pg -v 0.18.4'
-  gem install pg -v 0.18.4
+  echo 'gem install pg -v 0.21.0'
+  gem install pg -v 0.21.0
 
   echo '-----------------------------'
-  echo 'gem install nokogiri -v 1.7.0'
-  gem install nokogiri -v 1.7.0
+  echo 'gem install nokogiri -v 1.8.1'
+  gem install nokogiri -v 1.8.1
 }
 
 # Input parameter: 'ruby-x.y'
@@ -100,8 +100,7 @@ function time_install_ruby_version {
 }
 # Latest versions of Ruby
 # https://www.ruby-lang.org/en/downloads/
-time_install_ruby_version 2.4.1
-time_install_ruby_version 2.3.4
+time_install_ruby_version 2.5.0
 
 echo '*********************************'
 echo 'FINISHED installing Ruby on Rails'
